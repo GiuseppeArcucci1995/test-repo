@@ -1,7 +1,7 @@
 # Final Project - High Performance Computing (15 Points)
 
 **Title:** Accelerating 3D Coordinate Transformations with CUDA: A Performance Study  
-**Author:** Giuseppe Arcucci – Student ID: 0120000322  
+**Author:** Giuseppe Arcucci 
 **Degree Program:** M.Sc. in Machine Learning and Big Data  
 **Course:** High Performance Computing  
 **Academic Year:** 2024/2025
