@@ -1,46 +1,47 @@
-# Progetto Finale - High Performance Computing (15 punti)
+# Final Project - High Performance Computing (15 Points)
 
-**Titolo:** Accelerating 3D Coordinate Transformations with CUDA: A Performance Study  
-**Autore:** Giuseppe Arcucci – Matricola 0120000322  
-**Corso:** Machine Learning e Big Data  
-**Insegnamento:** High Performance Computing  
-**Anno accademico:** 2024/2025
-
----
-
-## 🎯 Obiettivo del progetto
-
-Sviluppare e analizzare una soluzione ad alte prestazioni per l'elaborazione di **trasformazioni 3D su coordinate** (rotazioni, traslazioni, scaling) mediante l'utilizzo della **programmazione parallela con CUDA**.
-
-Il progetto confronta:
-- Implementazioni seriali e parallele su **CPU**
-- Implementazioni parallele su **GPU (CUDA)**
-
-Test eseguiti su dataset di **1 milione** e **10 milioni** di punti.
+**Title:** Accelerating 3D Coordinate Transformations with CUDA: A Performance Study  
+**Author:** Giuseppe Arcucci – Student ID: 0120000322  
+**Degree Program:** M.Sc. in Machine Learning and Big Data  
+**Course:** High Performance Computing  
+**Academic Year:** 2024/2025
 
 ---
 
-## 🧩 Contenuto del repository
+## 🎯 Project Goal
 
-- `kernel.cu`: Codice CUDA per le trasformazioni 3D
-- `CudaRuntime1.sln`: Soluzione Visual Studio
-- `CudaRuntime1.vcxproj`: File progetto C++ configurato per CUDA
-- `.gitignore`: Esclusione dei file temporanei
-- `README.md`: Questa guida
+The goal of this project is to develop and analyze a high-performance solution for applying **3D coordinate transformations** (rotation, translation, scaling) using **parallel computing with CUDA**.
 
----
+This implementation compares:
+- Serial and parallel execution on **CPU**
+- Fully parallelized transformation on **GPU (CUDA)**
 
-## ⚙️ Requisiti
-
-- Windows con **Visual Studio 2022** o superiore
-- **CUDA Toolkit** installato (v11.x o superiore)
-- **GPU NVIDIA** compatibile CUDA
-- Nsight Systems (opzionale per profiling)
+Experiments were conducted on datasets containing **1 million** and **10 million** points.
 
 ---
 
-## 🚀 Come eseguire il progetto
+## 📁 Repository Content
 
-1. Clona questo repository:
+- `kernel.cu`: CUDA code for 3D point transformations  
+- `CudaRuntime1.sln`: Visual Studio solution file  
+- `CudaRuntime1.vcxproj`: Project configuration file for CUDA  
+- `.gitignore`: Excludes temporary and build-related files  
+- `README.md`: This file
+
+---
+
+## ⚙️ Requirements
+
+- Windows with **Visual Studio 2022** or later  
+- **CUDA Toolkit** installed (v11.x or later)  
+- An **NVIDIA GPU** with CUDA support  
+- Nsight Systems (optional for profiling)
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone this repository:
    ```bash
    git clone https://github.com/GiuseppeArcucci1995/test-repo.git
+
